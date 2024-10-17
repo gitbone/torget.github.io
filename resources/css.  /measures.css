@@ -1,8 +1,0 @@
-
-:root {
-    --measureDimensionSpacing11: 11px;    
-    --measureDimensionSpacing22: 22px;    
-    /* With care */
-    --measureDimensionRadiusNormal: 5px;    
-    --measureDimensionMapframe: var(--measureDimensionSpacing11);    
-}
