@@ -44,5 +44,7 @@
     --measureDimensionTypographyFontSizeFontSize36: 36px;    
     --measureDimensionTypographyFontSizeFontSize45: 45px;    
     --measureDimensionTypographyFontSizeFontSize57: 57px;    
+    --measureDimensionOpacityOpacity008: 0.07999999821186066px;    
+    --measureDimensionOpacityOpacity012: 0.119999997317791px;    
     --measureDimensionMapframe: var(--measureDimensionSpacing11);    
 }
