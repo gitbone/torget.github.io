@@ -1,0 +1,48 @@
+
+:root {
+    --measureDimensionSpacing11: 11px;    
+    --measureDimensionSpacing22: 22px;    
+    /* With care */
+    --measureDimensionRadiusNormal: 5px;    
+    --measureDimensionCornerNone: 0px;    
+    --measureDimensionCornerExtraSmall: 4px;    
+    --measureDimensionCornerSmall: 8px;    
+    --measureDimensionCornerMedium: 12px;    
+    --measureDimensionCornerLarge: 16px;    
+    --measureDimensionCornerExtraLarge: 28px;    
+    --measureDimensionCornerFull: 1000px;    
+    --measureDimensionTypographyFontSizeFontSize11: 11px;    
+    --measureDimensionTypographyFontWeightFontWeightRegular: 400px;    
+    --measureDimensionTypographyFontWeightFontWeightMedium: 500px;    
+    --measureDimensionTypographyFontWeightFontWeightSemibold: 600px;    
+    --measureDimensionTypographyFontWeightFontWeightBold: 700px;    
+    --measureDimensionTypographyFontWeightFontWeightExtrabold: 800px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing0: 0px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing01: 0.1000000014901161px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing015: 0.1500000059604645px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing025: 0.25px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing04: 0.4000000059604645px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacing05: 0.5px;    
+    --measureDimensionTypographyLetterSpacingLetterSpacingNegative025: -0.25px;    
+    --measureDimensionTypographyLineHeightLineHeight16: 16px;    
+    --measureDimensionTypographyLineHeightLineHeight20: 20px;    
+    --measureDimensionTypographyLineHeightLineHeight24: 24px;    
+    --measureDimensionTypographyLineHeightLineHeight28: 28px;    
+    --measureDimensionTypographyLineHeightLineHeight32: 32px;    
+    --measureDimensionTypographyLineHeightLineHeight36: 36px;    
+    --measureDimensionTypographyLineHeightLineHeight40: 40px;    
+    --measureDimensionTypographyLineHeightLineHeight44: 44px;    
+    --measureDimensionTypographyLineHeightLineHeight52: 52px;    
+    --measureDimensionTypographyFontSizeFontSize12: 12px;    
+    --measureDimensionTypographyLineHeightLineHeight64: 64px;    
+    --measureDimensionTypographyFontSizeFontSize14: 14px;    
+    --measureDimensionTypographyFontSizeFontSize16: 16px;    
+    --measureDimensionTypographyFontSizeFontSize22: 22px;    
+    --measureDimensionTypographyFontSizeFontSize24: 24px;    
+    --measureDimensionTypographyFontSizeFontSize28: 28px;    
+    --measureDimensionTypographyFontSizeFontSize32: 32px;    
+    --measureDimensionTypographyFontSizeFontSize36: 36px;    
+    --measureDimensionTypographyFontSizeFontSize45: 45px;    
+    --measureDimensionTypographyFontSizeFontSize57: 57px;    
+    --measureDimensionMapframe: var(--measureDimensionSpacing11);    
+}
