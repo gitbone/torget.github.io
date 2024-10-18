@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@use './xplore-theme';
+@import '../resources/css/index.css';
+
+@include mat.core();
+
+html {
+  // Apply the light theme by default
+  @include mat.core-theme(xplore-theme.$light-theme);
+  @include mat.button-theme(xplore-theme.$light-theme);
+}
