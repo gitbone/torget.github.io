@@ -1,11 +1,17 @@
-@use '@angular/material' as mat;
+@use '../node_modules/@angular/material' as mat;
 @use './xplore-theme';
-@import '../resources/css/index.css';
 
 @include mat.core();
 
 html {
-  // Apply the light theme by default
   @include mat.core-theme(xplore-theme.$light-theme);
-  @include mat.button-theme(xplore-theme.$light-theme);
+  @include mat.all-component-themes(xplore-theme.$light-theme);
+  @include mat.all-component-typographies(xplore-theme.$light-theme);
+  @include mat.system-level-colors(xplore-theme.$light-theme);
+  @include mat.system-level-typography(xplore-theme.$light-theme);
+}
+
+.dark {
+  @include mat.all-component-colors(xplore-theme.$dark-theme);
+  @include mat.system-level-colors(xplore-theme.$dark-theme);
 }

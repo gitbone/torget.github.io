@@ -2,7 +2,8 @@
 // Proceed with caution if making changes to this file.
 
 @use 'sass:map';
-@use '../node_modules/@angular/material/index' as mat;
+@use '../node_modules/@angular/material' as mat;
+@import '../resources/css/index.css';
 
 // Note: Color palettes are generated from primary: #2c817e
 $_palettes: (
@@ -143,7 +144,10 @@ $light-theme: mat.define-theme((
     use-system-variables: true,
   ),
   typography: (
-    use-system-variables: true,
+    plain-family: 'Nunito Sans',
+    brand-family: 'Nunito Sans',
+    bold-weight: 900,
+    use-system-variables: true
   ),
 ));
 $dark-theme: mat.define-theme((
@@ -154,6 +158,8 @@ $dark-theme: mat.define-theme((
     use-system-variables: true,
   ),
   typography: (
-    use-system-variables: true,
+    plain-family: 'Nunito Sans',
+    brand-family: 'Nunito Sans',
+    use-system-variables: true
   ),
 ));
