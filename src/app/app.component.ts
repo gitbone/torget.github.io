@@ -11,4 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class AppComponent {
   title = 'hackday';
+  darkTheme: boolean = false;
+
+  changeTheme() {
+    this.darkTheme = !this.darkTheme;
+  }
 }
