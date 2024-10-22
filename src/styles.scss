@@ -3,10 +3,10 @@
 
 @include mat.core();
 
-html {
-  @include mat.core-theme(xplore-theme.$light-theme);
+:root {
   @include mat.all-component-themes(xplore-theme.$light-theme);
   @include mat.all-component-typographies(xplore-theme.$light-theme);
+  @include mat.typography-hierarchy(xplore-theme.$light-theme);
   @include mat.system-level-colors(xplore-theme.$light-theme);
   @include mat.system-level-typography(xplore-theme.$light-theme);
 }
