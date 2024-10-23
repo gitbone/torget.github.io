@@ -1,0 +1,8 @@
+<ng-container [ngSwitch]="variant">
+  <button mat-flat-button *ngSwitchCase="'primary'">
+    <mat-icon class="material-symbols-outlined" *ngIf="icon">{{ icon }}</mat-icon>{{ label }}
+  </button>
+  <button mat-button *ngSwitchCase="'secondary'">
+    <mat-icon class="material-symbols-outlined" *ngIf="icon">{{ icon }}</mat-icon>{{ label }}
+  </button>
+</ng-container>
