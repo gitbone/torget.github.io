@@ -1,0 +1,6 @@
+@use "../../tokens/measures" as shape;
+
+:host {
+  --mdc-filled-button-container-shape: #{shape.$measureDimensionCornerCornerMinimal};
+  --mdc-text-button-container-shape: #{shape.$measureDimensionCornerCornerMinimal};
+}

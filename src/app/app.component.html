@@ -1,8 +1,16 @@
 <main class="main" [class.dark]="darkTheme">
   <div class="content">
     <h1>Hack Day 2024</h1>
+    <div class="button-group">
+      <xp-button (click)="changeTheme()" label="Primary"></xp-button>
+      <xp-button (click)="changeTheme()" label="Primary with icon" icon="add"></xp-button>
+    </div>
 
-    <button mat-flat-button (click)="changeTheme()">Ändra tema</button>
+    <div class="button-group">
+      <xp-button (click)="changeTheme()" variant="secondary" label="Secondary"></xp-button>
+      <xp-button (click)="changeTheme()" variant="secondary" label="Secondary with icon" icon="settings"></xp-button>
+    </div>
+
   </div>
 </main>
 <router-outlet></router-outlet>
